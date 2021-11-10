@@ -1,0 +1,97 @@
+/* header: fixing position and spacing between elements */
+header{
+ 
+    display: flex;
+    justify-content: space-between;
+  
+    border: gray;
+   padding-left: 10%;
+   padding-right: 10%;
+    border-style: solid;
+    
+}
+.iconbundle{
+
+ display: flex;
+    justify-content: space-between;
+    gap: 15px;
+
+}
+.workinghours{
+
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+    gap: 10px;
+    font-family: 'Roboto', sans-serif;
+    color: #626262;
+}
+
+/* Navigation bar */
+
+nav{
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 2%;
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Roboto slab', sans-serif;
+}
+nav ul{
+    display: flex;
+    list-style-type: none;
+    
+    gap: 10px;
+    padding-top: 15px;
+
+
+}
+nav a{
+
+    text-decoration: none; 
+   background-color: none;
+   color: #363636;
+}
+
+/* showcase */
+
+.showcase{
+    margin-top: 35px;
+    padding-top: 2%;
+    background-color: #DEDEDE;
+    padding-left: 6%;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+}
+.showcase img{
+height: 616px;
+width: 679px;
+}
+.showcase button{
+    border-radius: 18px;
+    background-color: #25E6C8;
+    width: 239px;
+    height: 60px;
+    border: none;
+    color: white;
+    font-size: 18px;
+    font-style: "roboto bold";
+}
+.showcase div{
+display: flex;
+padding-top: 100px;
+order: 3;
+gap: 10px;
+flex-direction: column;
+
+}
+.showcase h1{
+    font-size: 60px;
+    
+}
+.showcase button:hover{
+
+    background-color: #2BAAEC;
+}
+
+
