@@ -53,6 +53,8 @@ nav a{
    color: #363636;
 }
 
+
+
 /* showcase */
 
 .showcase{
@@ -92,6 +94,61 @@ flex-direction: column;
 .showcase button:hover{
 
     background-color: #2BAAEC;
+}
+
+
+
+
+/* About us*/
+
+.aboutus{
+    padding-top: 4%;
+    display: flex;
+    padding-right: 400px;
+    padding-left: 225px;
+    justify-content: space-between;
+
+
+}
+.aboutus img{
+    width: 473px;
+    height: 724px;
+    
+}
+.aboutus .text{
+   
+    flex-direction: column-reverse;
+    padding-top: 100px;
+    font-family: 'Roboto', sans-serif;
+    /* display: flex; */
+}
+
+.stats{
+
+    display: flex;
+    gap: 25px;
+}
+.stats h1{
+    color: #2BAAEC;
+}
+
+.ourservices{
+background-color: #F7F7F7;
+margin-top: -22px;
+display: flex;
+flex-direction: column;
+
+
+}
+.cards{
+    display: flex;
+    gap: 100px;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-left: 350px;
+    padding-right: 350px;
+    
+    
 }
 
 
