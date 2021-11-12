@@ -110,6 +110,16 @@ flex-direction: column;
 
 
 }
+
+#aboutusstripe{
+
+    width: 450px;
+    height: 4px;
+    background-color: #25E6C8;
+    margin-right: auto;
+    border-radius: 10px;
+    
+}
 .aboutus img{
     width: 473px;
     height: 724px;
@@ -131,7 +141,7 @@ flex-direction: column;
 .stats h1{
     color: #2BAAEC;
 }
-
+/* OUR SERVICES */
 .ourservices{
 background-color: #F7F7F7;
 margin-top: -22px;
@@ -140,19 +150,39 @@ flex-direction: column;
 
 
 }
+
+.ourservices h1{
+
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+
+}
+#ourservicesstripe{
+
+    width: 450px;
+    height: 4px;
+    background-color: #25E6C8;
+    margin: auto;
+    border-radius: 10px;
+    
+}
+
 .cards{
+    padding-top: 45px;
     display: flex;
     gap: 0px;
-    margin-left: 250px;
-    margin-right: 250px;
+    margin-left: 240px;
+    margin-right: 240px;
    
 
     flex-wrap: wrap;
-    
+    row-gap: 28px;
+ 
     justify-content: space-between;
+    
     /* padding-left: 350px; */
     /* padding-right: 350px; */
-    background-color: gray;
+    
     
     
 }
@@ -177,12 +207,11 @@ flex-direction: column;
 }
 .ourservices img{
 
-    border-radius: 50%;
+    
     position: relative;
-    top: 50%;
-    left: 50%;
-    margin-top: -30px;
-    margin-left: -30px; 
+    top: 25%;
+    left: 25%;
+    margin: auto;
 
 }
 
