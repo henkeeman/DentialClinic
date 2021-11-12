@@ -142,13 +142,87 @@ flex-direction: column;
 }
 .cards{
     display: flex;
-    gap: 100px;
+    gap: 0px;
+    margin-left: 250px;
+    margin-right: 250px;
+   
+
     flex-wrap: wrap;
-    justify-content: center;
-    padding-left: 350px;
-    padding-right: 350px;
+    
+    justify-content: space-between;
+    /* padding-left: 350px; */
+    /* padding-right: 350px; */
+    background-color: gray;
     
     
 }
+
+.card{
+    width:450px;
+    height:436px;
+    background:#FFFFFF;
+    border-radius: 10px;
+
+}
+.circle{
+    height: 120px;
+    width: 120px;
+    background-color: #25E6C8;
+    border-radius: 50%;
+    position: relative;
+    top: 20%;
+    left: 50%;
+    margin-top: -25px;
+    margin-left: -60px;
+}
+.ourservices img{
+
+    border-radius: 50%;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    margin-top: -30px;
+    margin-left: -30px; 
+
+}
+
+.card h2{
+    font-size: 22px;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    margin-top: 100px;
+    margin-left: -80px; 
+    font-family: 'Roboto', sans-serif;
+    pointer-events: none;
+
+
+
+}
+.card p{
+
+    font-size: 18px;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    margin-top: 0px;
+    margin-left: -460px; 
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    pointer-events: none;
+
+
+}
+
+.card:hover{
+    
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.card:hover .circle{
+
+    background-color: #2BAAEC;
+}
+
 
 
