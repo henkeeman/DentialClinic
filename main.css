@@ -261,6 +261,7 @@ padding-bottom: 150px;
     left: 50%;
     margin-top: -25px;
     margin-left: -60px;
+    transition: box-shadow 0.25s ease-out 0ms
 }
 .ourservices img{
 
@@ -308,7 +309,7 @@ padding-bottom: 150px;
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
 }
 
-@keyframes cirkleHover{
+/* @keyframes cirkleHover{
     from{
         box-shadow: 0 0 0 0px #2ba8ec33;
     }
@@ -316,15 +317,20 @@ padding-bottom: 150px;
     to{
         box-shadow: 0 0 0 10px #2ba8ec33;
     }
-}
+} */
+
+
+
 
 .card:hover .circle{
 
     background-color: #2BAAEC;
     /* box-shadow: 0 0 0 10px rgb(16,114,181); */
-    animation: cirkleHover 0.5s forwards;
-    
+    /* animation: cirkleHover 0.5s forwards; */
+    box-shadow: 0 0 0 10px #2ba8ec33;
+   
 }
+
 
 /* Appointment */
 
